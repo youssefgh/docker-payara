@@ -1,11 +1,11 @@
-FROM mooo.tech/openjdk:8.191.12-r0
+FROM mooo.tech/openjdk:11.0.4_p4-r1
 
 MAINTAINER Youssef GHOUBACH <ghoubach.youssef@gmail.com>
 
 RUN apk add --update \
     curl
 
-ENV VERSION 5.184
+ENV VERSION 5.192
 
 ENV PACKAGE_NAME payara-$VERSION
 
