@@ -1,11 +1,11 @@
-FROM mooo.tech/openjdk:11.0.4_p4-r1
+FROM docker.pkg.github.com/youssefgh/docker-openjdk/openjdk:11.0.4_p4-r1
 
 MAINTAINER Youssef GHOUBACH <ghoubach.youssef@gmail.com>
 
 RUN apk add --update \
     curl
 
-ENV VERSION 5.192
+ENV VERSION 5.193.1
 
 ENV PACKAGE_NAME payara-$VERSION
 
